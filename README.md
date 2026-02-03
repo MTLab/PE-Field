@@ -1,11 +1,16 @@
-
-# Positional Encoding Field (PE-Field)
+## Positional Encoding Field (PE-Field)
 
 We introduce the **Positional Encoding Field (PE-Field)**, which extends positional encodings from the 2D plane to a structured 3D field. PE-Field incorporates **depth-aware encodings** for volumetric reasoning and **hierarchical encodings** for fine-grained sub-patch control, enabling DiTs to model geometry directly in 3D space. Our PE-Field–augmented DiT achieves **state-of-the-art performance** on single-image novel view synthesis and generalizes to **controllable spatial image editing**.
 
 <p align="center">
   <img src="./assets/nvs_dit.png" alt="PE-Field Teaser" width="80%">
 </p>
+
+---
+
+## News
+
+- PE-field is accepted to ICLR 2026!
 
 ---
 
@@ -84,3 +89,11 @@ python ./infer_viewchanger_single_v2.py \
 
 ---
 
+## Citation
+
+    @article{bai2025positional,
+      title={Positional Encoding Field},
+      author={Bai, Yunpeng and Li, Haoxiang and Huang, Qixing},
+      journal={arXiv preprint arXiv:2510.20385},
+      year={2025}
+    }
