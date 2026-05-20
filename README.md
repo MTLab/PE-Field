@@ -1,5 +1,8 @@
 ## Positional Encoding Field (PE-Field)
 
+<a href='https://arxiv.org/abs/2510.20385'><img src='https://img.shields.io/badge/ICLR2026-PDF-red'></a>
+
+
 We introduce the **Positional Encoding Field (PE-Field)**, which extends positional encodings from the 2D plane to a structured 3D field. PE-Field incorporates **depth-aware encodings** for volumetric reasoning and **hierarchical encodings** for fine-grained sub-patch control, enabling DiTs to model geometry directly in 3D space. Our PE-Field–augmented DiT achieves **state-of-the-art performance** on single-image novel view synthesis and generalizes to **controllable spatial image editing**.
 
 <p align="center">
